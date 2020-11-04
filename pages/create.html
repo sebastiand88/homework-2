@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pizza ordering website>
+    <meta name="keywords" content="pizza, order, death by pizza">
+    <meta name="author" content="Sebastian Damian">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍕 Create your own PIZZA 🍕</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body style="background-image: url(../pictures/background2.jpg); background-size: cover;">
+    <header>
+      <h1 class="logo" style="font-family: Comic Sans MS; color: red;">Death by PIZZA</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+    <br>
+
+    <!--Content-->
+    
+    <h2 class="second" style="padding-top: 200px; color: white; font-family: Comic Sans MS;">Are you ready to make your own Pizza?</h2>
+    <div  class="size" style="padding-top: 50px;">
+      <label style="color: white; font-family: Comic Sans MS;">Please select your Pizza size:</label>
+      <select>
+        <option value="9">9'</option>
+        <option value="12">12'</option>
+        <option value="14">14'</option>
+      </select>
+    </div>
+      <br>
+    <div class="base">
+        <label style="color: white; font-family: Comic Sans MS;">Please select your Pizza base:</label>
+      <select>
+        <option value="Classic">Classic</option>
+        <option value="Thin">Thin and Crispi</option>
+        <option value="Stuffed">Stuffed + £2</option>
+        <option value="Fluffy">Fluffy</option>
+      </select>
+    </div>
+    <br>
+    <div class="sauce">
+      <label style="color: white; font-family: Comic Sans MS;">Please select your Pizza sauce:</label>
+      <select>
+        <option value="Tomato">Tomato</option>
+        <option value="Spicy">Spicy Tomato</option>
+        <option value="garlic">Tomato and garlic</option>
+      </select>
+    </div>
+    <br>
+    <div class="toppings">
+      <p class="second" style="color: white; padding-left: 20px; font-family: Comic Sans MS;">Please select your Pizza toppings:</p>
+      <form action="pay.html">      
+        <fieldset style="background-color: rgba(0, 214, 170, .85);"> 
+          <h3 style="color: red; font-family: Comic Sans MS;">Protein:</h3>     
+          <legend style="color: red;"></legend> 
+          <input type="checkbox" name="toppings" value="Cheese">Extra Cheese     
+          <input type="checkbox" name="toppings" value="Pepperoni">Pepperoni    
+          <input type="checkbox" name="toppings" value="Ham">Ham
+          <input type="checkbox" name="toppings" value="Beef">Ground Beef
+          <input type="checkbox" name="toppings" value="Chicken">Chicken
+          <input type="checkbox" name="toppings" value="Tuna">Tuna
+          <input type="checkbox" name="toppings" value="Bacon">Bacon
+          <input type="checkbox" name="toppings" value="Sausage">Sausage
+          <input type="checkbox" name="toppings" value="Prawn">Prawns
+          <input type="checkbox" name="toppings" value="Panceta">Panceta
+          <input type="checkbox" name="toppings" value="Prosciutto">Prosciutto
+          <br><br>
+          <h3 style="color: red; font-family: Comic Sans MS;">Vegetables:</h3>
+          <input type="checkbox" name="toppings" value="Mushrooms">Mushrooms
+          <input type="checkbox" name="toppings" value="Onions">Onions
+          <input type="checkbox" name="toppings" value="Peppers">Peppers
+          <input type="checkbox" name="toppings" value="Sweetcorn">Sweetcorn
+          <input type="checkbox" name="toppings" value="Jalapeno">Jalapeno
+          <input type="checkbox" name="toppings" value="Olives">Olives
+          <input type="checkbox" name="toppings" value="Pinapple">Pinapple
+          <input type="checkbox" name="toppings" value="Tomato">Tomato
+          <input type="checkbox" name="toppings" value="Spinach">Spinach
+          <input type="checkbox" name="toppings" value="Egg">Egg
+          <input type="checkbox" name="toppings" value="veg">Vegetarian Sausage
+          <input type="checkbox" name="toppings" value="Broccoli">Broccoli
+          <input type="checkbox" name="toppings" value="Garlic">Roasted Garlic
+          <br><br><br>
+          <input style="padding: 5px;" type="submit" value="Place Order">
+        </fieldset>      
+      </form>
+
+      
+    </div>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pizza ordering website>
+    <meta name="keywords" content="pizza, order, death by pizza">
+    <meta name="author" content="Sebastian Damian">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍕 Death by PIZZA 🍕</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="logo" style="font-family: Comic Sans MS; color: red;">Death by PIZZA</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="create.html">Create your own PIZZA</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <form class="second">
+        
+      <label style="color: red; font-family: Comic Sans MS;">First Name: *</label>
+      <input type="required" placeholder="John" required><br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Last Name: *</label>
+      <input type="required" placeholder="Smith" required> <br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Street: *</label>
+      <input type="required"placeholder="Street" required>
+      <input type="required"placeholder="Address line 2" required><br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Post Code: *</label>
+      <input type="required"placeholder="G2 1AL" required>
+      <label style="color: red; font-family: Comic Sans MS;">City: *</label>
+      <input type="required"placeholder="City" required><br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Phone nr: *</label>
+      <input type="required" placeholder="0141 123 123" required><br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Your Email: *</label>
+      <input type="email" placeholder="Please enter your email" required> <br><br>
+      <label style="color: red; font-family: Comic Sans MS;">Aditional delevery instructions:</label><br><br>
+      <textarea placeholder="Your Message..." cols="50" rows="5"></textarea> <br><br>
+      <h4 style="color: red; font-family: Comic Sans MS;">Please enter your bank details</h4>
+      <label for="cardnumber" style="color: red; font-family: Comic Sans MS;">Card Number</label>
+      <input type="text" name="cardnumber" id="cardnumber" placeholder="16 digits"><br><br>
+      <label for="expirydate" style="color: red; font-family: Comic Sans MS;">Expiry Date</label>
+      <input type="text" name="expirydate" id="expirydate" placeholder="**/**"><br><br>
+      <label for="svv" style="color: red; font-family: Comic Sans MS;">SVV</label>
+      <input type="svv" name="svv" id="svv" placeholder="***"><br><br>
+
+      <button style="padding: 7px;">Place your order</button>
+
+    </form>
+
+  </body>
+</html>
